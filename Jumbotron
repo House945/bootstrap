@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kurs Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    /*
+      [class*="col-"]{
+        background-color: rgba(255,195,50,.3);
+        border: 1px solid rgba(255,195,50,.4);
+        padding: 10px;
+      }
+    */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-lg-6">
+          <img src="images/logo_sk.jpg" alt="Strefa Kursów">
+        </div>
+        <div class="col-lg-6">
+          <h2>Wydawnictwo Strefa Kursów</h2>
+          <h3>Zadzwoń do nas: 888­-223-111</h3>
+        </div>
+      </header>
+      <div class="jumbotron">
+        <img src="images/logo_sk_top.png" alt="logo" class="pull-right">
+        <h2>Inni dopiero się uczą Ty już potrafisz</h2>
+        <p>ODBIERZ 5% RABATU, regularne zniżki na nowości, informacje o darmowych filmach</p>
+      </div>
+      <div class="row">
+        <article class="col-lg-9 col-md-8 col-sm-7">
+          <img src="images/okladka_ruby.png" alt="Ruby" class="pull-right">
+          <h4>Kurs, który nauczy cię programowania w języku Ruby.</h4>
+          <p>Jesteś początkującym programistą i chcesz poznać łatwy, intuicyjny język?
+          Chcesz opanować język, którego znajomość może być ważnym atutem na rynku pracy?
+          Potrzebujesz języka, który umożliwia łatwe i szybkie pisanie aplikacji?</p>
+        </article>
+        <aside class="col-lg-3 col-md-4 col-sm-5">
+          <h4>Czego się nauczysz z kursem?</h4>
+          <p>Ten kurs nauczy cię od podstaw programowania w Ruby. Zdobędziesz bogatą wiedzę, która pozwoli ci rozpocząć pracę nad własnymi aplikacji i zapewni bardzo solidne podstawy do dalszego rozwijania umiejętności.</p>
+        </aside>
+      </div>
+      <div class="row">
+        <aside class="col-lg-3 col-md-4 col-sm-5 col-lg-push-9">
+          <h4>Dlaczego Ruby On Rails?</h4>
+          <p>Ruby on Rails (albo RoR) to niezwykle popularny framework przeznaczony do szybkiego tworzenia dynamicznych serwisów internetowych. Napisany jest w języku Ruby i posiada przejrzystą modułową strukturę opartą na wzorcu MVC. W praktyce Ruby on Rails umożliwia szybkie pisanie aplikacji internetowych, łatwą rozbudowę o nowe funkcje, oferuje dużą stabilność, bezpieczeństwo, mnóstwo rozszerzeń oraz liczne grono chętnych do pomocy użytkowników. Znajomość RoR pozwala na błyskawiczną realizację wszystkich twoich pomysłów. Zamiast walczyć z oprogramowaniem możesz po prostu skupić się na rozbudowywaniu strony o wszelkie możliwe funkcje!</p>
+        </aside>
+        <article class="col-lg-9  col-md-8 col-sm-7 col-lg-pull-3">
+          <img src="images/okladka_ror.png" alt="Ruby on Rails" class="pull-left">
+          <h4>Łatwe tworzenie dynamicznych internetowych aplikacji</h4>
+          <p>Zamierzasz zbudować nowoczesny serwis internetowy i potrzebujesz rozwiązania, które umożliwi ci łatwe wdrożenie twojego pomysłu?</p>
+          <p>Masz już jakieś doświadczenia z budową statycznych stron i chcesz wzbogacić swoje umiejętności o tworzenie dynamicznych, funkcjonalnych witryn? Chcesz zdobyć praktyczne umiejętności, których znajomość może zwiększyć twoje szanse na rynku pracy?
+          Wiesz już dlaczego warto poznać Ruby on Rails i szukasz kursu, które szybko wprowadzi cię w świat tego doskonałego frameworka?</p>
+        </article>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-5 col-lg-push-9">
+          <p>Typowy kurs to zestaw składający się z książki i filmów. Książka służy jako wprowadzenie do kursu natomiast filmy szczegółowo wyjaśnianą wszystkie istotne zagadnienia. To właśnie filmy stanowią główną zawartość merytoryczną naszych kursów.</p>
+        </div>
+        <div class="col-lg-9  col-md-8 col-sm-7 col-lg-pull-3">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <p><img src="images/okladka_dcc_mini.png" alt="Kurs Dreamweaver CC"></p>
+            <blockquote>
+              <p>Kurs Dreamweaver CC - szybkie tworzenie stron</p>
+            </blockquote>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <p><img src="images/okladka_aacc_mini.png" alt="Kurs After Effects CC"></p>
+            <blockquote>
+              <p>Kurs After Effects CC - od podstaw</p>
+            </blockquote>
+            </div>      
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <p><img src="images/okladka_indcc_mini.png" alt="Kurs InDesign CC"></p>
+            <blockquote>
+              <p>Kurs InDesign CC - od podstaw</p>
+            </blockquote>
+            </div>      
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <p><img src="images/okladka_ios_mini.png" alt="Kurs iOS"></p>
+            <blockquote>
+              <p>Kurs iOS - tworzenie gry od A do Z</p>      
+            </blockquote>  
+            </div>                  
+          </div>
+        </div>
+      </div>
+ 
+      <hr>
+      <footer class="row">
+        <p><small>Copyright 2013 &copy; StrefaKursów.pl</small></p>
+      </footer>
+    </div>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
